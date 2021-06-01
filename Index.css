@@ -2,10 +2,42 @@
   font-family: "Montserrat-Medium";
   src: url("/Font/Montserrat-Medium.ttf");
 }
+@font-face {
+  font-family: "Montserrat-ExtraBold";
+  src: url("/Font/Montserrat-ExtraBold.ttf");
+}
+@font-face {
+  font-family: "Montserrat-Medium";
+  src: url("/Font/Montserrat-Medium.ttf");
+}
+@font-face {
+  font-family: "Montserrat-Bold";
+  src: url("/Font/Montserrat-Bold.ttf");
+}
+@font-face {
+  font-family: "Montserrat-SemiBold";
+  src: url("/Font/Montserrat-SemiBold.ttf");
+}
 
+.pos{
+  width: 300px;
+  height: 400px;
+}
+.po{
+  width: 550px;
+  height: 550px;
+}
+.p{
+  width: 450px;
+  height: 490px;
+}
+.pa{
+  width: 60px;
+  height: 60px;
+}
 .pats {
   width: 300px;
-  height: 300px;
+  height: 70px;
 }
 .patslo {
   width: 150px;
@@ -26,6 +58,7 @@ body {
 }
 .groot {
   min-height: 100vh;
+  margin-top;
 }
 * {
   margin: 0;
@@ -36,7 +69,7 @@ i {
 }
 /*----------multi-level-accordian-menu------------*/
 .navbar-logo {
-  padding: 15px;
+  padding: 10px;
   color: #fff;
 }
 .navbar-mainbg {
@@ -53,6 +86,7 @@ i {
 }
 #navbarSupportedContent ul li a i {
   margin-right: 10px;
+
 }
 #navbarSupportedContent li {
   list-style-type: none;
@@ -231,7 +265,7 @@ footer {
   background-image: -webkit-linear-gradient(#080808, #1a1c1d);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-family: "Montserrat-Medium";
+  font-family: "Montserrat-SemiBold";
   font-size: 1.5 rem;
 }
 .gr {
@@ -354,3 +388,4 @@ h1 {
     transform: translateX(25%);
   }
 }
+
