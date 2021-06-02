@@ -18,7 +18,10 @@
   font-family: "Montserrat-SemiBold";
   src: url("/Font/Montserrat-SemiBold.ttf");
 }
-
+.lo {
+  width: 150px;
+  height: 150px;
+}
 .pos {
   width: 300px;
   height: 400px;
@@ -574,7 +577,7 @@ body {
   top: 100%;
   right: 30px;
   left: 30px;
-  bottom: 54px;
+  bottom: 25px;
   overflow: hidden;
   opacity: 0;
   filter: alpha(opacity=0);
@@ -636,43 +639,43 @@ body {
   }
 }
 .material-card.Red h2 {
-  background-color: #f44336;
+  background-color: #f55eb6;
 }
 .material-card.Red h2:after {
-  border-top-color: #f44336;
-  border-right-color: #f44336;
+  border-top-color: #f55eb6;
+  border-right-color: #f55eb6;
   border-bottom-color: transparent;
   border-left-color: transparent;
 }
 .material-card.Red h2:before {
   border-top-color: transparent;
-  border-right-color: #b71c1c;
-  border-bottom-color: #b71c1c;
+  border-right-color: #f55eb6;
+  border-bottom-color: #f55eb6;
   border-left-color: transparent;
 }
 .material-card.Red.mc-active h2:before {
   border-top-color: transparent;
-  border-right-color: #f44336;
-  border-bottom-color: #f44336;
+  border-right-color: #f55eb6;
+  border-bottom-color: #f55eb6;
   border-left-color: transparent;
 }
 .material-card.Red.mc-active h2:after {
-  border-top-color: #b71c1c;
-  border-right-color: #b71c1c;
+  border-top-color: #f55eb6;
+  border-right-color: #f55eb6;
   border-bottom-color: transparent;
   border-left-color: transparent;
 }
 .material-card.Red .mc-btn-action {
-  background-color: #f44336;
+  background-color: #f55eb6;
 }
 .material-card.Red .mc-btn-action:hover {
-  background-color: #b71c1c;
+  background-color: #f55eb6;
 }
 .material-card.Red .mc-footer h4 {
-  color: #b71c1c;
+  color: #f55eb6;
 }
 .material-card.Red .mc-footer a {
-  background-color: #b71c1c;
+  background-color: #f55eb6;
 }
 .material-card.Red.mc-active .mc-content {
   background-color: #ffebee;
@@ -682,4 +685,12 @@ body {
 }
 .material-card.Red.mc-active .mc-btn-action {
   border-color: #ffebee;
+}
+
+.center {
+  position: absolute; /* child */
+  top: 50%;
+  left: 50%;
+  margin-left: -150px; /* half of width*/
+  margin-top: -150px; /* half of height */
 }
