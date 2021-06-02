@@ -471,7 +471,7 @@ body {
   position: relative;
   /* height: 0; */
   padding-bottom: calc(100% - 16px);
-  margin-bottom: 10rem;
+  margin-bottom: 9rem;
   height: 100%;
 }
 .material-card h2 {
