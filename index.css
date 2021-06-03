@@ -19,8 +19,10 @@
   src: url("/Font/Montserrat-SemiBold.ttf");
 }
 .lo {
-  width: 150px;
-  height: 150px;
+  width: 200px;
+  height: 200px;
+  position: relative;
+  bottom: 14rem;
 }
 .pos {
   width: 300px;
