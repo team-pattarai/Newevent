@@ -13,20 +13,6 @@ function test() {
     height: activeWidthNewAnimHeight + "px",
     width: activeWidthNewAnimWidth + "px",
   });
-  $("#navbarSupportedContent").on("click", "li", function (e) {
-    $("#navbarSupportedContent ul li").removeClass("active");
-    $(this).addClass("active");
-    var activeWidthNewAnimHeight = $(this).innerHeight();
-    var activeWidthNewAnimWidth = $(this).innerWidth();
-    var itemPosNewAnimTop = $(this).position();
-    var itemPosNewAnimLeft = $(this).position();
-    $(".hori-selector").css({
-      top: itemPosNewAnimTop.top + "px",
-      left: itemPosNewAnimLeft.left + "px",
-      height: activeWidthNewAnimHeight + "px",
-      width: activeWidthNewAnimWidth + "px",
-    });
-  });
 }
 $(document).ready(function () {
   setTimeout(function () {
@@ -43,7 +29,6 @@ $(".navbar-toggler").click(function () {
     test();
   });
 });
-
 $(function () {
   $(".material-card > .mc-btn-action").click(function () {
     var card = $(this).parent(".material-card");
@@ -69,5 +54,31 @@ $(function () {
           .addClass("fa-arrow-left");
       }, 800);
     }
+  });
+});
+$(document).ready(function () {
+  // Add smooth scrolling to all links
+  $(".smooth").on("click", function (event) {
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $("html, body").animate(
+        {
+          scrollTop: $(hash).offset().top,
+        },
+        800,
+        function () {
+          // Add hash (#) to URL when done scrolling (default click behavior)
+          window.location.hash = hash;
+        }
+      );
+    } // End if
   });
 });

@@ -224,24 +224,7 @@ i {
     left: -25px;
   }
 }
-.watermarked {
-  position: relative;
-}
 
-.watermarked:after {
-  content: "";
-  display: block;
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  background-image: url("/Images/logo.png");
-  background-size: 100px 100px;
-  background-position: 30px 30px;
-  background-repeat: no-repeat;
-  opacity: 0.7;
-}
 #footer-links-container ul {
   list-style-type: none;
   padding-left: 0px !important;
@@ -280,6 +263,17 @@ footer {
   color: #f8f5f5;
   font-family: "Montserrat-SemiBold";
   font-size: 1.5rem;
+}
+@media (max-width: 768px) {
+  .gr {
+    font-size: 1rem;
+  }
+  .grah {
+    font-size: 1rem;
+  }
+  .btn-custom {
+    margin-top: 1rem;
+  }
 }
 .im {
   border-radius: 50%;
@@ -639,6 +633,14 @@ body {
     padding: 50px 30px 70px 30px;
     bottom: 0;
   }
+  .material-card .img-container {
+    margin-bottom: 3rem !important;
+  }
+}
+@media (max-width: 768px) {
+  .material-card {
+    height: 90%;
+  }
 }
 .material-card.Red h2 {
   background-color: #f55eb6;
@@ -904,7 +906,7 @@ hr {
     line-height: 55px;
   }
   .pats {
-    width: 150px;
+    width: 180px;
     height: 70px;
   }
   .patslo {
