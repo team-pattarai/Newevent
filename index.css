@@ -18,6 +18,9 @@
   font-family: "Montserrat-SemiBold";
   src: url("/Font/Montserrat-SemiBold.ttf");
 }
+.fa-bars {
+  margin: 0px auto;
+} 
 .lo {
   width: 200px;
   height: 200px;
@@ -45,8 +48,8 @@
   height: auto;
 }
 .patslo {
-  width: 150px;
-  height: 150px;
+  width: 200px;
+  height: auto;
 }
 
 .oof {
@@ -76,6 +79,9 @@ i {
   padding: 15px;
   color: #fff;
 }
+.navbar-logo:hover{
+  color: #f55eb6;
+}
 .navbar-mainbg {
   background-color: #000000;
   padding: 0px;
@@ -96,7 +102,7 @@ i {
   float: left;
 }
 #navbarSupportedContent ul li a {
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(255, 255, 255);
   text-decoration: none;
   font-size: 15px;
   display: block;
@@ -293,6 +299,9 @@ footer {
   background-color: #00040c;
   border-radius: 10px;
 }
+.nav-item a{
+  color: #ffffff;
+}
 .nav-text {
   color: #ffffff;
 }
@@ -405,9 +414,9 @@ h1 {
   -moz-border-radius: 240px;
   -webkit-border-radius: 240px;
   border-radius: 240px;
-  -moz-box-shadow: 0 4px 0 #00abf2 inset;
-  -webkit-box-shadow: 0 4px 0 #00abf2 inset;
-  box-shadow: 0 4px 0 #00abf2 inset;
+  -moz-box-shadow: 0 4px 0 rgb(218, 73, 181) inset;
+  -webkit-box-shadow: 0 4px 0 rgb(218, 73, 181) inset;
+  box-shadow: 0 4px 0 rgb(218, 73, 181) inset;
   animation: rotate-360 2s linear infinite;
 }
 
