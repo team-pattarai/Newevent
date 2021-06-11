@@ -42,7 +42,7 @@
 }
 .pats {
   width: 300px;
-  height: 70px;
+  height: auto;
 }
 .patslo {
   width: 150px;
@@ -59,7 +59,7 @@ body {
   background-size: cover;
   background-repeat: no-repeat; */
   font-family: "Montserrat-Medium";
-  color: #868c92;
+  color: #ffffff;
 }
 .groot {
   min-height: 100vh;
@@ -289,24 +289,24 @@ footer {
   background-color: #00040c;
 }
 .btn-custom {
-  color: #868c92;
+  color: #ffffff;
   background-color: #00040c;
   border-radius: 10px;
 }
 .nav-text {
-  color: #868c92;
+  color: #ffffff;
 }
 .active > .nav-link {
   color: #fdf2e7;
 }
 .btn-custom:hover {
   color: #222;
-  background-color: #868c92;
+  background-color: #ffffff;
   transform: scale(1.2, 1.2);
 }
 .nav-text:hover {
   color: #111111;
-  background-color: #868c92;
+  background-color: #ffffff;
   border-radius: 10px;
 }
 
@@ -737,30 +737,34 @@ body {
   margin-left: -30px;
   padding-right: 20px;
 }
-
+.contact-list li {
+  margin: 10px 0px;
+}
 .list-item {
   line-height: 4;
   color: #ffebee;
 }
 
 .contact-text {
-  font: 300 18px "Lato", sans-serif;
+  font: 500 18px "Montserrat", Montserrat-Medium;
   letter-spacing: 1.9px;
   color: #000;
+  margin: auto;
+  margin: 0px 30px;
 }
 
-.site {
+/*.site {
   margin-left: 50px;
 }
 
 .phone {
-  margin-left: 56px;
+  margin-left: 50px;
 }
 
 .gmail {
-  margin-left: 53px;
+  margin-left: 50px;
 }
-
+*/
 .contact-text a {
   color: #000;
   text-decoration: none;
