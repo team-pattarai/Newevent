@@ -18,6 +18,6 @@ $(window).on("load", function () {
 //     hidePreloader();
 //     });
 
-//   $(document).on("ready", function () {
+// $(document).on("ready", function () {
 
-//   });
+// });
