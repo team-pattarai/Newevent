@@ -20,7 +20,7 @@
 }
 .fa-bars {
   margin: 0px auto;
-} 
+}
 .lo {
   width: 200px;
   height: 200px;
@@ -44,8 +44,8 @@
   height: 60px;
 }
 .pats {
-  width: 300px;
-  height: auto;
+  width: 400px;
+  height: 400px;
 }
 .patslo {
   width: 200px;
@@ -79,7 +79,7 @@ i {
   padding: 15px;
   color: #fff;
 }
-.navbar-logo:hover{
+.navbar-logo:hover {
   color: #f55eb6;
 }
 .navbar-mainbg {
@@ -299,7 +299,7 @@ footer {
   background-color: #00040c;
   border-radius: 10px;
 }
-.nav-item a{
+.nav-item a {
   color: #ffffff;
 }
 .nav-text {
@@ -757,7 +757,7 @@ body {
 .contact-text {
   font: 500 18px "Montserrat", Montserrat-Medium;
   letter-spacing: 1.9px;
-  color: #000;
+  color: #fff;
   margin: auto;
   margin: 0px 30px;
 }
@@ -775,7 +775,7 @@ body {
 }
 */
 .contact-text a {
-  color: #000;
+  color: #fff;
   text-decoration: none;
   transition-duration: 0.2s;
 }
