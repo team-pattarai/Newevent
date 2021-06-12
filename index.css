@@ -579,6 +579,7 @@ body {
 }
 .material-card .mc-description {
   position: absolute;
+  color: #000;
   top: 100%;
   right: 30px;
   left: 30px;
