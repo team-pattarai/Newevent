@@ -18,6 +18,9 @@
   font-family: "Montserrat-SemiBold";
   src: url("/Font/Montserrat-SemiBold.ttf");
 }
+.fa-bars {
+  margin: 0px auto;
+} 
 .lo {
   width: 200px;
   height: 200px;
@@ -42,11 +45,11 @@
 }
 .pats {
   width: 300px;
-  height: 70px;
+  height: auto;
 }
 .patslo {
-  width: 150px;
-  height: 150px;
+  width: 200px;
+  height: auto;
 }
 
 .oof {
@@ -59,7 +62,7 @@ body {
   background-size: cover;
   background-repeat: no-repeat; */
   font-family: "Montserrat-Medium";
-  color: #868c92;
+  color: #ffffff;
 }
 .groot {
   min-height: 100vh;
@@ -75,6 +78,9 @@ i {
 .navbar-logo {
   padding: 15px;
   color: #fff;
+}
+.navbar-logo:hover{
+  color: #f55eb6;
 }
 .navbar-mainbg {
   background-color: #000000;
@@ -96,7 +102,7 @@ i {
   float: left;
 }
 #navbarSupportedContent ul li a {
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(255, 255, 255);
   text-decoration: none;
   font-size: 15px;
   display: block;
@@ -289,24 +295,27 @@ footer {
   background-color: #00040c;
 }
 .btn-custom {
-  color: #868c92;
+  color: #ffffff;
   background-color: #00040c;
   border-radius: 10px;
 }
+.nav-item a{
+  color: #ffffff;
+}
 .nav-text {
-  color: #868c92;
+  color: #ffffff;
 }
 .active > .nav-link {
   color: #fdf2e7;
 }
 .btn-custom:hover {
   color: #222;
-  background-color: #868c92;
+  background-color: #ffffff;
   transform: scale(1.2, 1.2);
 }
 .nav-text:hover {
   color: #111111;
-  background-color: #868c92;
+  background-color: #ffffff;
   border-radius: 10px;
 }
 
@@ -405,9 +414,9 @@ h1 {
   -moz-border-radius: 240px;
   -webkit-border-radius: 240px;
   border-radius: 240px;
-  -moz-box-shadow: 0 4px 0 #00abf2 inset;
-  -webkit-box-shadow: 0 4px 0 #00abf2 inset;
-  box-shadow: 0 4px 0 #00abf2 inset;
+  -moz-box-shadow: 0 4px 0 rgb(218, 73, 181) inset;
+  -webkit-box-shadow: 0 4px 0 rgb(218, 73, 181) inset;
+  box-shadow: 0 4px 0 rgb(218, 73, 181) inset;
   animation: rotate-360 2s linear infinite;
 }
 
@@ -737,30 +746,34 @@ body {
   margin-left: -30px;
   padding-right: 20px;
 }
-
+.contact-list li {
+  margin: 10px 0px;
+}
 .list-item {
   line-height: 4;
   color: #ffebee;
 }
 
 .contact-text {
-  font: 300 18px "Lato", sans-serif;
+  font: 500 18px "Montserrat", Montserrat-Medium;
   letter-spacing: 1.9px;
   color: #000;
+  margin: auto;
+  margin: 0px 30px;
 }
 
-.site {
+/*.site {
   margin-left: 50px;
 }
 
 .phone {
-  margin-left: 56px;
+  margin-left: 50px;
 }
 
 .gmail {
-  margin-left: 53px;
+  margin-left: 50px;
 }
-
+*/
 .contact-text a {
   color: #000;
   text-decoration: none;
